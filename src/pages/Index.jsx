@@ -6,7 +6,7 @@ const Index = () => {
   return (
     <Box w="100%" h="100vh" bg="blue.900" color="white" bgImage="https://images.unsplash.com/photo-1493134799591-2c9eed26201a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxjaXR5JTIwc2t5bGluZXxlbnwwfHx8fDE3MDkzODAxOTd8MA&ixlib=rb-4.0.3&q=80&w=1080" bgSize="cover" bgPos="center">
       <VStack h="100%" justify="center" align="center" spacing={4}>
-        <Text fontSize="6xl" fontWeight="bold" textTransform="uppercase" lineHeight="shorter">
+        <Text fontSize={["3xl", "4xl", "5xl", "6xl"]} fontWeight="bold" textTransform="uppercase" lineHeight="shorter" textAlign="center">
           Jon Sintorn
         </Text>
         <Box h="2px" w="80px" bg="white" />
